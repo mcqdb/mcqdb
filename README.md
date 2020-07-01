@@ -1,5 +1,8 @@
 # mcqdb
 
+Clone the repository
+`git clone <repo-git-url>`
+
 To Run Frontend:
 
 `cd client && npm start`
@@ -7,3 +10,5 @@ To Run Frontend:
 To Run Backend:
 
 `cd server && go run *.go`
+
+
