@@ -6,7 +6,8 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
-        I am in the middle
+        I am in the middle of the list
+        
       <Footer></Footer>
     </div>
   );
