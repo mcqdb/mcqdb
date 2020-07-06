@@ -1,0 +1,18 @@
+.home {
+    flex-grow: 10;
+    min-width: 100%;
+    /* background: rgb(0,0,0);
+background: linear-gradient(22deg, rgba(0,0,0,1) 0%, rgba(8,29,40,1) 36%, rgba(21,89,48,1) 74%, rgba(187,66,36,1) 100%); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 8rem;
+}
+
+h3 {
+    font-size: 4rem;
+}

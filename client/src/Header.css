@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100%;
+    padding: 10px 0px;
+}
+.logo-section {
+    margin: 0px 25px;
+}
+.links-section {
+    margin: 0px 25px;
+}
+.links-section > ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.links-section > ul > li{
+    margin: 0px 25px;
+}
