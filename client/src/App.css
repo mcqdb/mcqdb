@@ -1,10 +1,6 @@
 .App {
     /*ensures that entire height of screen is taken*/
     min-height: 100vh;
-
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
     font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
 }

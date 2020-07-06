@@ -1,11 +1,16 @@
 import React from 'react';
+
+import Header from './Header.js'
+import Footer from './Footer.js'
+import Hero from './Hero.js'
 import './Home.css'
 
 function Home() {
   return (
     <div className="home">
-        <h1>welcome</h1>
-        <h3> to the database of mcq's</h3>
+        <Header></Header>
+        <Hero></Hero>
+        <Footer></Footer>
     </div>
   );
 }
