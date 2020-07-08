@@ -1,14 +1,14 @@
 import React from 'react';
 
-import './Hero.css'
+import './Home.css'
 
-function Hero() {
+function Home() {
   return (
-    <div className="hero">
+    <div className="home">
         <h1>welcome</h1>
         <h3> to the database of mcq's</h3>
     </div>
   );
 }
 
-export default Hero;  
+export default Home;  
