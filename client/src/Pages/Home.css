@@ -1,5 +1,5 @@
 .home {
-    min-width: 100%;
+    align-items: stretch;
     
     display: flex;
     flex-direction: column;

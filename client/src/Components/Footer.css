@@ -1,6 +1,10 @@
 .footer {
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    height: 100px;
     min-width: 100%;
     /*rem fonts are relative to the root, em is relative to the parent*/
     font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

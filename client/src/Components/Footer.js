@@ -3,9 +3,9 @@ import './Footer.css'
 
 function Footer() {
   return (
-    <div className="text-center footer">
+    <div className="footer">
         {/* eslint-disable-next-line */}
-        code hosted on <a target="_blank" href="https://github.com/mcqdb/mcqdb" >github</a>
+        code hosted on &nbsp;<a target="_blank" href="https://github.com/mcqdb/mcqdb" >github</a>
     </div>
   );
 }
