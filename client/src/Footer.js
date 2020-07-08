@@ -1,9 +1,11 @@
 import React from 'react';
+import './Footer.css'
 
 function Footer() {
   return (
-    <div className="App">
-        I am footer
+    <div className="text-center footer">
+        {/* eslint-disable-next-line */}
+        code hosted <a target="_blank" href="https://github.com/mcqdb/mcqdb" >github</a>
     </div>
   );
 }

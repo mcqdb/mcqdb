@@ -1,14 +1,19 @@
 import React from 'react';
-import Header from './Header.js'
-import Footer from './Footer.js'
+import { Route, Switch } from 'react-router-dom'
+
+import About from './About.js'
+import Home from './Home.js'
+import Contests from './Contests.js'
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-        I am in the middle of the list
-        
-      <Footer></Footer>
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/about" exact component={About} />
+        <Route path="/contests" component={Contests} />
+      </Switch>
     </div>
   );
 }
