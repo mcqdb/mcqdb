@@ -12,7 +12,7 @@ function Header() {
         <ul>
           <li><Link to="/contests">contests</Link></li>
           <li><Link to="/about">about</Link></li>
-          <li><Link to="/enter">login/signup</Link></li>
+          <li><Link to="/enter">enter</Link></li>
         </ul>
       </div>
     </div>
