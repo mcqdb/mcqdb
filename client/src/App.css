@@ -3,4 +3,13 @@
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.PageContent {
+    flex-grow: 10;
+    display: flex;
+    justify-content: center;
 }
