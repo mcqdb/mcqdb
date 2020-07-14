@@ -3,7 +3,7 @@ import './Enter.css'
 
 function Enter() {
   return (
-    <div className="enter">
+    <div clas sName="enter">
       <div className="login p-20 pr-40">
         <form>
           <div class="mb-4">
