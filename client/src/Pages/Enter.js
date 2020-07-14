@@ -5,7 +5,7 @@ function Enter() {
   return (
     <div className="enter">
       <div className="login p-20 pr-40">
-        <form>
+        <form autocomplete="off">
           <div class="mb-4">
             <input className="border rounded w-full py-2 px-3 text-black mb-3"  id="username" type="text" placeholder="username"></input>
           </div>
@@ -26,9 +26,9 @@ function Enter() {
       <hr class="divider"></hr>
 
       <div className="signup p-20 pl-40">
-      <form>
+      <form autocomplete="off">
           <div class="mb-4">
-            <input className="border rounded w-full py-2 px-3 text-black mb-3"  id="username" type="text" placeholder="username"></input>
+            <input className="border rounded w-full py-2 px-3 text-black mb-3"  id="username" type="text" placeholder="username" size="20"></input>
           </div>
           <div class="mb-6">
             <input className="border rounded w-full py-2 px-3 text-black mb-3" id="email" type="text" placeholder="email">
