@@ -9,7 +9,8 @@ To Run Frontend:
 
 To Run Backend:
 
-'cd server
-go build && go run *.go`
+`cd server`
+
+`go build && go run *.go`
 
 
